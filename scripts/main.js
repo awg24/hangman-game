@@ -47,7 +47,7 @@ function buildGuessArea(size) {
 
 function printUpdate(word, left) {
 	document.getElementById("game").innerHTML = "<p>Word to guess: " + word.join(" ") + "</p>" +
-		"<p>Guess left: " + left + "</p>";
+		"<p>Guesses left: " + left + "</p>";
 }
 
 function printCounters(wins, loses) {
